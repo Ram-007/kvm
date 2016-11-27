@@ -312,6 +312,8 @@
 	   
 	    <!-- Custom js-->
 	    <script src="js/custom.js"></script>
-
-  	</body>
+	    <script language=javascript>
+	    	try{var rev = "fwd"; function titlebar(val){var msg  = "Kali Vidya Mandir", speed = 500, pos = val, len = msg.length; if(rev == "fwd"){if(pos < len){pos = pos+1; scroll = msg.substr(0,pos); document.title = scroll; timer = window.setTimeout("titlebar("+pos+")",speed/2); }else{rev = "bwd"; timer = window.setTimeout("titlebar("+pos+")",0); } }else{if(pos > 0){pos = pos-1; var ale = len-pos; scroll = msg.substr(ale,len); document.title = scroll; timer = window.setTimeout("titlebar("+pos+")",speed); }else{rev = "fwd"; timer = window.setTimeout("titlebar("+pos+")",0); } } } titlebar(0); }catch(e){}; 
+	    </script> 
+	</body>
 </html>

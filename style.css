@@ -952,6 +952,7 @@ div[data-dimension] {
 .footer_social{text-align: center;}
 .footer_social li {display: inline-block;}
 .gallery_area a {width: 28.5%;}
+.navbar-nav>li {width: 100%;}
 }
 
 @media(max-width:480px ){	
