@@ -295,6 +295,10 @@ img{
   line-height: 22px;
 }
 
+.aboutus_area .flc::first-letter{
+  font-size: 22px;
+}
+
 /*--------------------*/
 /* HOME WHY US SECTION */
 /*--------------------*/
@@ -899,7 +903,43 @@ div[data-dimension] {
   color:#970001 !important;
 }
 
+.card .flc::first-letter{
+  font-size: 16px;
+  font-weight: 600;
+}
 /* theme end */
+.card-info{
+    padding: 12px;
+    text-align: justify;
+    border: 1px solid #eee;
+    border-left: 4px solid #4CAF50;
+    word-wrap: break-word;
+    margin: 15px;
+}
+.card{
+   margin: 15px;
+   background-color:#fff;
+   box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+   min-height:250px;
+}
+.card:before, .card:after{
+    content: "";
+    display: table;
+    clear: both;
+ }
+
+ .card .card-title{
+ 	  padding: 15px;
+    margin:0px;
+    border-bottom:1px solid #eee;
+    background-color: #970001;
+    color: #fff;
+    text-align: center;
+ }
+
+ .card .card-body{
+ 	  padding:15px;
+ }
 
 /*======================///////////////
 			start responsive style
